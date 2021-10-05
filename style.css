@@ -413,6 +413,9 @@
 	#sec5 p {
     width: 448px;
   }
+  #sec5 .light::after{
+  	display: none;
+  }
 }
 
 /*         sec6             */
