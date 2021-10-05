@@ -260,15 +260,17 @@
 }
 #sec3 .flx{flex-flow: column;}
 #sec3 .flx .back{display: none;}
-#sec3 .flx img{margin: 46px 0 0 60px;}
-#sec3 .flx .ch{text-align: center;}
+#sec3 .flx img{margin: 46px 0 0 0px;}
+#sec3 .flx .ch{text-align: center;
+	width: 216px;
+}
 #sec3 .flx i{
 	display: block;
 }
 #sec3 .flx h5, #sec3 .flx p {margin: 16px 0 0 6px;}
 
 }
-
+.light{font-weight: 60px;}
 
 
 /*           sec4                  */
@@ -462,8 +464,8 @@
 }
 #sec7 p span{
 	color: #10cab7;
+	display: block;
 }
-
 
 
 
