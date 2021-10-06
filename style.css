@@ -260,8 +260,10 @@
 }
 #sec3 .flx{flex-flow: column;}
 #sec3 .flx .back{display: none;}
-#sec3 .flx img{margin: 46px 0 0 60px;}
-#sec3 .flx .ch{text-align: center;}
+#sec3 .flx img{margin: 46px 0 60px 18px;}
+#sec3 .flx .ch{text-align: center;
+	width: 326px;
+}
 #sec3 .flx i{
 	display: block;
 }
@@ -319,7 +321,12 @@
 		flex-flow: column;
 		margin: 0 0 0 72px;
 	}
-
+	.mar{
+		margin: 20px 0 ;
+	}
+	#sec4 .txt{
+		padding: 10px;
+	}
 }
 
 
@@ -402,17 +409,17 @@
 }
 
 @media only screen and (max-width: 700px) {
-	#sec5 .s1, #sec5 .s2 , #sec5.s3{
+	#sec5 .s1, #sec5 .s2 , #sec5 .s3{
 		display: none;
 	}
 	#sec5 .flx{
 		flex-flow: column;
 	}
 	#sec5 img{
-		margin: 0px 0 0 24%;
+		margin: 0px 0 0 16%;
 	}
 	#sec5 p {
-    width: 392px;
+    width: 352px;
   }
   #sec5 .light::after{
   	left: 89px;
@@ -447,6 +454,12 @@
 	word-spacing: 3px;
 }
 
+@media only screen and (max-width: 700px){
+	#sec6 .p1{
+		font-size: 26px;
+	}
+}
+
 /*             sec7               */
 
 #sec7{
@@ -466,7 +479,11 @@
 	color: #10cab7;
 }
 
-
+@media only screen and (max-width: 700px){
+	#sec7 p {
+		font-size: 15px;
+	}
+}
 
 
 
